@@ -52,3 +52,14 @@ No. Choose the position that will block the player's winning combo
 The AI will then push the selected position into its own .positions array. The active player is toggled, and control is returned to the human player.
 
 This process continues until either player has positions that comprise a winning combination, or all positions are exhausted.
+
+
+
+
+
+
+
+
+Need to add: -restriction about if ask for yes or no . if the user type y or n , i want to tell the user non valid input
+             -Modify the hot seat code , it doesnt work at the moment .
+             -Add spanish in the future and keep score as long as the user continue to play.

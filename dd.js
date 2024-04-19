@@ -30,7 +30,10 @@ const messages = {
 };
 
 let currentLang = 'english';
-let gameMode, currentPlayer, aiPlayer, board;
+let gameMode;
+let currentPlayer;
+let aiPlayer;
+let board;
 
 
 function initGame() {
@@ -57,8 +60,8 @@ function setupGame() {
 }
 
 function printBoard() {
-    console.log('\n' + board.slice(0, 3).join(' | ') + '\n---------\n' +
-                board.slice(3, 6).join(' | ') + '\n---------\n' +
+    console.log('\n' + board.slice(0, 3).join(' | ') + '\n\n' +
+                board.slice(3, 6).join(' | ') + '\n\n' +
                 board.slice(6).join(' | ') + '\n');
 }
 function playerTurn() {
